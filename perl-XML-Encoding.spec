@@ -42,7 +42,7 @@ XML::Encoding - modu³ analizuj±cy mapy kodowania XML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
