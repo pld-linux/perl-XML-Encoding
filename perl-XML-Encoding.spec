@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Encoding
+%define		pdir	XML
+%define		pnam	Encoding
 Summary:	XML::Encoding Perl module
 Summary(cs):	Modul XML::Encoding pro Perl
 Summary(da):	Perlmodul XML::Encoding
