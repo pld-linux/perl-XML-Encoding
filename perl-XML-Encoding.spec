@@ -40,7 +40,7 @@ XML::Encoding - modu³ analizuj±cy mapy kodowania XML.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
