@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Encoding
-Summary:	XML-Encoding perl module
-Summary(pl):	Modu³ perla XML-Encoding
+Summary:	XML::Encoding perl module
+Summary(pl):	Modu³ perla XML::Encoding
 Name:		perl-XML-Encoding
 Version:	1.01
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Encoding - module for parsing XML encoding maps.
+XML::Encoding - module for parsing XML encoding maps.
 
 %description -l pl
-XML-Encoding - modu³ analizuj±cy mapy kodowania XML.
+XML::Encoding - modu³ analizuj±cy mapy kodowania XML.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
