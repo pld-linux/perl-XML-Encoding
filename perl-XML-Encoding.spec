@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Encoding
-Summary:	XML::Encoding perl module
-Summary(pl):	Modu³ perla XML::Encoding
+%define		pdir	XML
+%define		pnam	Encoding
+Summary:	XML::Encoding Perl module
+Summary(cs):	Modul XML::Encoding pro Perl
+Summary(da):	Perlmodul XML::Encoding
+Summary(de):	XML::Encoding Perl Modul
+Summary(es):	Módulo de Perl XML::Encoding
+Summary(fr):	Module Perl XML::Encoding
+Summary(it):	Modulo di Perl XML::Encoding
+Summary(ja):	XML::Encoding Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	XML::Encoding ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul XML::Encoding
+Summary(pl):	Modu³ Perla XML::Encoding
+Summary(pt):	Módulo de Perl XML::Encoding
+Summary(pt_BR):	Módulo Perl XML::Encoding
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl XML::Encoding
+Summary(sv):	XML::Encoding Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::Encoding
+Summary(zh_CN):	XML::Encoding Perl Ä£¿é
 Name:		perl-XML-Encoding
 Version:	1.01
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
