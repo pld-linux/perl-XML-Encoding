@@ -10,7 +10,7 @@ Summary(fr):	Module Perl XML::Encoding
 Summary(it):	Modulo di Perl XML::Encoding
 Summary(ja):	XML::Encoding Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	XML::Encoding ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul XML::Encoding
+Summary(nb):	Perlmodul XML::Encoding
 Summary(pl):	Modu³ Perla XML::Encoding
 Summary(pt):	Módulo de Perl XML::Encoding
 Summary(pt_BR):	Módulo Perl XML::Encoding
