@@ -20,13 +20,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::Encoding
 Summary(zh_CN):	XML::Encoding Perl Ä£¿é
 Name:		perl-XML-Encoding
 Version:	1.01
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-XML-Parser >= 2.18
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -40,7 +40,8 @@ XML::Encoding - modu³ analizuj±cy mapy kodowania XML.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -55,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README maps
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/XML/Encoding.pm
+%{perl_vendorlib}/XML/Encoding.pm
 %{_mandir}/man3/*
