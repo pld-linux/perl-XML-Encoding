@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla XML-Encoding
 Name:		perl-XML-Encoding
 Version:	1.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/XML-Encoding-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/XML/XML-Encoding-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-XML-Parser
@@ -16,7 +16,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-XML-Encoding - module for parsing XML encoding maps. 
+XML-Encoding - module for parsing XML encoding maps.
 
 %description -l pl
 XML-Encoding - modu³ analizuj±cy mapy kodowania XML.
