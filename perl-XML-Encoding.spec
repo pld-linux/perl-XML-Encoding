@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Encoding
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML-Encoding perl module
 Summary(pl):	Modu³ perla XML-Encoding
 Name:		perl-XML-Encoding
 Version:	1.01
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +22,7 @@ XML-Encoding - module for parsing XML encoding maps.
 XML-Encoding - modu³ analizuj±cy mapy kodowania XML.
 
 %prep
-%setup -q -n XML-Encoding-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
