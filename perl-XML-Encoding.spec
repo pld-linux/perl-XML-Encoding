@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl XML::Encoding
 Summary(zh_CN):	XML::Encoding Perl дё©И
 Name:		perl-XML-Encoding
 Version:	1.01
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
