@@ -3,7 +3,7 @@ Summary:	XML-Encoding perl module
 Summary(pl):	Modu³ perla XML-Encoding
 Name:		perl-XML-Encoding
 Version:	1.01
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
