@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Encoding
 Summary:	XML::Encoding - module for parsing XML encoding maps
-Summary(pl):	XML::Encoding - modu³ analizuj±cy mapy kodowañ XML
+Summary(pl.UTF-8):   XML::Encoding - moduÅ‚ analizujÄ…cy mapy kodowaÅ„ XML
 Name:		perl-XML-Encoding
 Version:	1.01
 Release:	11
@@ -30,12 +30,12 @@ files. Calling a parse method returns the name of the encoding map
 of the map are processed through the callback functions push_prefix,
 pop_prefix, and range_set.
 
-%description -l pl
-Ten modu³, stworzony jako podklasa XML::Parser, udostêpnia analizator
-dla plików map kodowañ bêd±cych plikami XML. Plik maps/encmap.dtd
-zawarty w pakiecie opisuje strukturê tych plików. Wywo³anie metody
-parse zwraca nazwê mapy kodowania (otrzyman± z atrybutu name elementu
-g³ównego). Zawarto¶æ mapy jest przetwarzana poprzez funkcje wywo³añ
+%description -l pl.UTF-8
+Ten moduÅ‚, stworzony jako podklasa XML::Parser, udostÄ™pnia analizator
+dla plikÃ³w map kodowaÅ„ bÄ™dÄ…cych plikami XML. Plik maps/encmap.dtd
+zawarty w pakiecie opisuje strukturÄ™ tych plikÃ³w. WywoÅ‚anie metody
+parse zwraca nazwÄ™ mapy kodowania (otrzymanÄ… z atrybutu name elementu
+gÅ‚Ã³wnego). ZawartoÅ›Ä‡ mapy jest przetwarzana poprzez funkcje wywoÅ‚aÅ„
 zwrotnych (callback) push_prefix, pop_prefix i range_set.
 
 %prep
