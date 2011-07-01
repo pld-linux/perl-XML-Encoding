@@ -8,13 +8,13 @@
 Summary:	XML::Encoding - module for parsing XML encoding maps
 Summary(pl.UTF-8):	XML::Encoding - moduł analizujący mapy kodowań XML
 Name:		perl-XML-Encoding
-Version:	2.07
+Version:	2.08
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	802cca8bd9a4726641d13b794d6c28f9
+# Source0-md5:	21a602a43060d49302c86ca77aa9db33
 BuildRequires:	perl-XML-Parser >= 2.18
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
