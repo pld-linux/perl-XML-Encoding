@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Encoding
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Encoding - module for parsing XML encoding maps
 Summary(pl.UTF-8):	XML::Encoding - moduł analizujący mapy kodowań XML
 Name:		perl-XML-Encoding
