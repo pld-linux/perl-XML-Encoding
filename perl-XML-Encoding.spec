@@ -8,7 +8,7 @@ Summary:	XML::Encoding - module for parsing XML encoding maps
 Summary(pl.UTF-8):	XML::Encoding - moduł analizujący mapy kodowań XML
 Name:		perl-XML-Encoding
 Version:	2.08
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
